@@ -1,0 +1,14 @@
+{application, bgi,
+ [
+  {description, "An Erlang bgi library"},
+  {vsn, "1"},
+  {modules, [
+             bgi
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
