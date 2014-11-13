@@ -73,9 +73,6 @@ typedef struct hash
     HashBucket** bucket; /* Vector of bucket pointers (objects) */
 } Hash;
 
-//Hash* hash_new(ErtsAlcType_t, char*, int, HashFunctions);
-//Hash* hash_init(ErtsAlcType_t, Hash*, char*, int, HashFunctions);
-
 void  hash_delete(Hash*);
 void  hash_get_info(HashInfo*, Hash*);
 void  hash_info(int, void *, Hash*);
